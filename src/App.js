@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
+import FirstComponent from './components/learning/FirstComponent'
+import SecondComponent from './components/learning/SecondComponent'
+import ThirdComponent from './components/learning/ThirdComponent'
+import FourthComponent from './components/learning/FourthComponent'
 
 function App() {
   return (
@@ -13,19 +17,23 @@ function App() {
     </div>
   );
 }
-
+/* 
 function FirstComponent() {
   return (
     <div className='FirstComponent'>첫번째 (함수형) 컴포넌트</div>
   )
 }
+ */
 
+/* 
 function SecondComponent() {
   return (
     <div className='SecondComponent'>두번째 (함수형) 컴포넌트</div>
   )
 }
+ */
 
+/* 
 class ThirdComponent extends Component {
   render() {
     return (
@@ -33,7 +41,9 @@ class ThirdComponent extends Component {
     )
   }
 }
+ */
 
+/* 
 class FourthComponent extends Component {
   render() {
     return (
@@ -45,7 +55,7 @@ class FourthComponent extends Component {
     )
   }
 }
-
+ */
 
 export default App;
 
