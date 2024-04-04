@@ -4,6 +4,12 @@ function FirstComponent() {
     )
   }
 
+
+  export function FifthComponent() {
+    return (
+      <div className='FifthComponent'>다섯번째 (함수형) 컴포넌트</div>
+    )
+  }  
+
   export default FirstComponent;
 
-  
