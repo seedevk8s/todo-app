@@ -1,26 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-import { Component } from 'react';
-import FirstComponent from './components/learning/FirstComponent'
-/* import FifthComponent from './components/learning/FirstComponent' */
-import {FifthComponent} from './components/learning/FirstComponent'
-import SecondComponent from './components/learning/SecondComponent'
-import ThirdComponent from './components/learning/ThirdComponent'
-import FourthComponent from './components/learning/FourthComponent'
-
+/* import { Component } from 'react'; */
+// import FirstComponent from './components/learning/FirstComponent'
+// /* import FifthComponent from './components/learning/FirstComponent' */
+// import {FifthComponent} from './components/learning/FirstComponent'
+// import SecondComponent from './components/learning/SecondComponent'
+// import ThirdComponent from './components/learning/ThirdComponent'
+// import FourthComponent from './components/learning/FourthComponent'
+import LearningComponent from './components/learning/LearningComponent'
 
 function App() {
   return (
     <div className="App">
       {/* 나의 할일 애플리케이션 */}
-      <FirstComponent></FirstComponent>
+      {/* <FirstComponent></FirstComponent>
       <SecondComponent></SecondComponent>
       <ThirdComponent></ThirdComponent>
       <FourthComponent></FourthComponent>
-      <FifthComponent />
+      <FifthComponent /> */}
+      <LearningComponent />
     </div>
   );
 }
+
+
 /* 
 function FirstComponent() {
   return (
