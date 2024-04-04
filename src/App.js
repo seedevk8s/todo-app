@@ -2,9 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 import FirstComponent from './components/learning/FirstComponent'
+/* import FifthComponent from './components/learning/FirstComponent' */
+import {FifthComponent} from './components/learning/FirstComponent'
 import SecondComponent from './components/learning/SecondComponent'
 import ThirdComponent from './components/learning/ThirdComponent'
 import FourthComponent from './components/learning/FourthComponent'
+
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
       <SecondComponent></SecondComponent>
       <ThirdComponent></ThirdComponent>
       <FourthComponent></FourthComponent>
+      <FifthComponent />
     </div>
   );
 }
